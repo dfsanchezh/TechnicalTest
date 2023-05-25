@@ -1,0 +1,80 @@
+
+<section>
+
+  <div class="col-12">
+    <div class="row text-center">
+      <h1>Amaris</h1>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="row">
+
+      <div class="col-3"></div>
+
+      <div class="col-6">
+        <form>
+          <div class="row">
+            <div class="col-6">
+              <label>Id Employe</label>
+              <input type="text" class="form-control" placeholder="Id employe" id="idEmploye" name="idEmploye"  [(ngModel)]="IdEmploye" (keyup)="ValdateIdEmploye($event)">
+            </div>
+            <div class="col-6">
+              <br />
+              <button type="button" class="btn btn-success" (click)="SearchInfo()">Search</button>
+            </div>
+          </div>
+          <br />
+        </form>
+      </div>
+
+      <div class="col-3"></div>
+
+    </div>
+
+  </div>
+
+
+  <br />
+  <br />
+  <div class="col-12">
+    <div class="row">
+
+      <div class="col-3"></div>
+
+      <div class="col-6 table-responsive">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id Employe</th>
+              <th scope="col">Employe Name</th>
+              <th scope="col">Employe Age</th>
+              <th scope="col">Employe Salary</th>
+              <th scope="col">Employe Salary Anual</th>
+              <th scope="col">Employe Photo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let ListEmploye of DataListEmploye; index as i">
+              <th scope="row">{{ListEmploye.id}}</th>
+              <td>{{ListEmploye.employee_name}}</td>
+              <td>{{ListEmploye.employee_age}}</td>
+              <td>{{ListEmploye.employee_salary | currency }}</td>
+              <td>{{ListEmploye.employeeAnualSalary | currency }}</td>
+              <td><img src="{{ListEmploye.profile_image}}" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-3"></div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+

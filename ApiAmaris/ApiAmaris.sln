@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAmaris", "ApiAmaris.csproj", "{F057F27B-A69B-4FD4-849D-EF6509A4D3A9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Amaris", "..\Amaris\Amaris.esproj", "{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAmarisService", "..\ApiAmarisService\ApiAmarisService.csproj", "{F949A193-4B53-42A8-9182-E2FEED750B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAmarisCore", "..\ApiAmarisCore\ApiAmarisCore.csproj", "{E55F30A3-4692-4C0E-8409-B2A6F1EF3097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAmarisRepository", "..\ApiAmarisRepository\ApiAmarisRepository.csproj", "{EB709102-E343-4D13-A375-375C5028D359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAmarisDto", "..\ApiAmarisDto\ApiAmarisDto.csproj", "{653D2879-41D7-4AC6-AA22-0F989E7ABD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F057F27B-A69B-4FD4-849D-EF6509A4D3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F057F27B-A69B-4FD4-849D-EF6509A4D3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F057F27B-A69B-4FD4-849D-EF6509A4D3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F057F27B-A69B-4FD4-849D-EF6509A4D3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BB2CBE-B117-490D-A5AC-CE6CBE744EAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F949A193-4B53-42A8-9182-E2FEED750B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F949A193-4B53-42A8-9182-E2FEED750B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F949A193-4B53-42A8-9182-E2FEED750B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F949A193-4B53-42A8-9182-E2FEED750B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55F30A3-4692-4C0E-8409-B2A6F1EF3097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55F30A3-4692-4C0E-8409-B2A6F1EF3097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55F30A3-4692-4C0E-8409-B2A6F1EF3097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55F30A3-4692-4C0E-8409-B2A6F1EF3097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB709102-E343-4D13-A375-375C5028D359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB709102-E343-4D13-A375-375C5028D359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB709102-E343-4D13-A375-375C5028D359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB709102-E343-4D13-A375-375C5028D359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653D2879-41D7-4AC6-AA22-0F989E7ABD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653D2879-41D7-4AC6-AA22-0F989E7ABD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653D2879-41D7-4AC6-AA22-0F989E7ABD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653D2879-41D7-4AC6-AA22-0F989E7ABD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD4592BA-7F5E-463F-A517-844D9AF88F7C}
+	EndGlobalSection
+EndGlobal
